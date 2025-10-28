@@ -1,0 +1,11 @@
+# backend/render.yaml
+services:
+  - type: web
+    name: daily-progress-api
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r backend/requirements.txt"
+    startCommand: "bash backend/start.sh"
+    autoDeploy: true
+    # You must configure environment variables (MONGO_URI, MONGO_DB_NAME, PORT) in the Render dashboard.

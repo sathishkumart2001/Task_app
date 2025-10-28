@@ -1,0 +1,5 @@
+<!-- frontend/static/logo.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24">
+  <rect width="24" height="24" rx="4" fill="#0ea5a3"></rect>
+  <path fill="#fff" d="M6 12h6v6H6zM13 6h5v12h-5z"></path>
+</svg>
