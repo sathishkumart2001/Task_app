@@ -1,7 +1,7 @@
 fastapi
 uvicorn[standard]
-motor==3.5.1
+motor==3.6.0
+pymongo==5.3.0
 pydantic
 python-dotenv
 gunicorn
-pymongo==4.9.2
